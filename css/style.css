@@ -28,13 +28,15 @@
     align-items: center;
     height: 80px;
     
+    padding: 40px;
+    
 }
 
-.logo{
+.h-logo{
     width: 20%;
     border-style: dashed solid;
     padding: 10px;
-
+    background-color: bisque;
 }
 
 .header-menu{
@@ -42,19 +44,18 @@
     justify-content: space-evenly;
     width: 60%;
     border-style: dashed solid;
-    padding: 10px 120px;
+    padding: 10px 50px;
     overflow: auto;
-
-
+    background-color: bisque;
 }
 
 .header-action{
     width: 20%;
     border-style:dashed solid;
+    background-color: bisque;
     text-align: right;
     padding: 10px;
     
-
 }
 
 .main-header{
@@ -66,6 +67,88 @@
     width: 50%;
     margin: 0 auto;
     background-color: antiquewhite;
+    border-style: dashed;
     
+}
 
+/* MAIN */
+.main-section{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.big-section{
+    min-height: 300px;
+     width: 60%;
+     background-color: lightskyblue;
+     border-style: dashed;
+}
+.small-section{
+    min-height: 300px;
+    width: 40%;
+    background-color: lightsalmon;
+    border-style: dashed;
+
+}
+.bk-gray{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+.last-section{
+    min-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-style: dashed;
+
+}
+/* FOOTER */
+.main-footer{
+    min-height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+}
+
+.bk-black{
+    background-color: black;
+}
+.footer-menu{
+    min-height: 300px;
+    width: 40%;
+    background-color: lightgreen;
+    border-style: dashed;
+
+}
+.footer-list{
+    min-height: 300px;
+    width: calc(100% / 4);
+    background-color: bisque;
+    border-style: dashed;
+}
+.footer-bar{
+   
+    
+    border-top: 1px white;
+    padding: 40px;
+}
+/* .f-logo{
+    border-style: dashed;
+    padding: 5px;
+
+} */
+.button, .f-logo{
+    border-style: dashed;
+    padding: 5px;
+    background-color: lightpink;
+} 
+.footer-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 10px 0;
+   
 }
